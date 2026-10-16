@@ -5,7 +5,7 @@ description: >-
 metadata:
   version: 3.6.2
   tags: sap references refhub customer-references crm
-  required-mcp-servers: "https://cmi-referencegpt-agent-dev.cfapps.eu10-004.hana.ondemand.com/mcp https://mxpresso.cfapps.eu10-004.hana.ondemand.com/mcp"
+  required-mcp-servers: "https://cmi-agent-test.cfapps.eu10-004.hana.ondemand.com/mcp https://mxpresso.cfapps.eu10-004.hana.ondemand.com/mcp"
 ---
 
 # SAP Reference Customer Finder
@@ -31,7 +31,7 @@ metadata:
 
 | MCP Server | Tools provided |
 |---|---|
-| [CMI MCP](https://cmi-referencegpt-agent-dev.cfapps.eu10-004.hana.ondemand.com/mcp) | `search_ReferenceGPT` · `search_refhub` · `list_unique_values_refhub` · `download_asset_dgl` |
+| [CMI MCP](https://cmi-agent-test.cfapps.eu10-004.hana.ondemand.com/mcp) | `search_ReferenceGPT` · `search_refhub` · `list_unique_values_refhub` · `download_asset_dgl` |
 | [MXP](https://mxpresso.cfapps.eu10-004.hana.ondemand.com/mcp) | `mcp_3ff46438_query-entries` · `mcp_5fd8a577_search-accounts` |
 
 ---
